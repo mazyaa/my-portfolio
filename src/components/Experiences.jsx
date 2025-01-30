@@ -1,6 +1,13 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 import image4 from "../assets/image4.jpg";
 
-export default function Experiences () {
+export default function Experiences() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section
       style={{
@@ -182,7 +189,7 @@ export default function Experiences () {
 
       {/** mobile view */}
       <div className="divider-horizontal mt-24 px-12 py-12 flex lg:hidden bg-black/70 backdrop-blur-md w-4/5 rounded-[2rem]">
-      <h1
+        <h1
           data-aos="fade-in"
           data-aos-duration="300"
           className="text-2xl font-bold text-white text-center py-7"

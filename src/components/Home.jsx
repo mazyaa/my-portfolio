@@ -2,7 +2,7 @@ import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
 import About from "./About";
 import Projects from "./Projects";
-import Experience from "./experience";
+import Experiences from "./Experiences";
 import AOS from "aos";
 import { useState, useEffect } from "react";
 
@@ -171,7 +171,7 @@ export default function Home() {
       </div>
 
       <About />
-      <Experience />
+      <Experiences />
       <Projects />
     </>
   );

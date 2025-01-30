@@ -1,3 +1,6 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import image5 from "../assets/image5.jpg";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
@@ -6,6 +9,9 @@ import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 
 export default function Projects() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <section
@@ -22,9 +28,7 @@ export default function Projects() {
             data-aos="fade-in"
             data-aos-duration="2000"
           >
-            <h1
-              className="text-3xl pb-5 font-bold text-white text-center"
-            >
+            <h1 className="text-3xl pb-5 font-bold text-white text-center">
               Projects
             </h1>
             <div className="flex flex-row w-full flex-wrap gap-10 items-center justify-center">
