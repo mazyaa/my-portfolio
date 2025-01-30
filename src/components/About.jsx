@@ -255,7 +255,7 @@ export default function About() {
                 data-aos="fade-in"
                 data-aos-duration="3000"
                 style={{ padding: "1rem 1rem" }}
-                className="text-white text-justify"
+                className="text-white text-sm text-justify"
               >
                 Besides that, I&apos;M a passionate Frontend Developer with
                 experience in building modern and responsive web applications. I
