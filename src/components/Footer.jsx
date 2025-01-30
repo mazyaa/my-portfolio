@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function footer() {
+export default function Footer() {
   return (
     <>
       <div className="hidden lg:flex flex-col bg-slate-950 items-center justify-center h-16">

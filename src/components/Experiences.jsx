@@ -1,6 +1,6 @@
 import image4 from "../assets/image4.jpg";
 
-export default function Experience() {
+export default function Experiences () {
   return (
     <section
       style={{
