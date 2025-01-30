@@ -16,13 +16,12 @@ export default function Projects() {
     <>
       <section
         style={{
-          backgroundImage: `url(${image5})`,
-          height: "230vh",
+          backgroundImage: `url(${image5})`
         }}
-        className="hidden lg:flex w-full items-center justify-center bg-fixed bg-cover"
+        className="hidden h-auto lg:flex w-full items-center justify-center bg-fixed bg-cover"
       >
         {/** Dekstop View */}
-        <div className="hidden lg:flex bg-black/70 backdrop-blur-md flex-col items-center gap-5 py-10 w-4/5 rounded-[2rem]">
+        <div className="hidden my-24 lg:flex bg-black/70 backdrop-blur-md flex-col items-center gap-5 py-10 w-4/5 rounded-[2rem]">
           <div
             className="flex flex-col "
             data-aos="fade-in"
@@ -213,12 +212,11 @@ export default function Projects() {
       {/** Mobile View */}
       <section
         style={{
-          backgroundImage: `url(${image5})`,
-          height: "450vh",
+          backgroundImage: `url(${image5})`
         }}
         className="flex lg:hidden w-full items-center justify-center bg-fixed bg-cover"
       >
-        <div className="flex mt-24 lg:hidden bg-black/70 backdrop-blur-md flex-col items-center gap-5 py-10 w-80 rounded-[2rem]">
+        <div className="flex my-24 mx-7 lg:hidden bg-black/70 backdrop-blur-md flex-col items-center gap-5 py-10 w-full rounded-[2rem]">
           <div
             className="flex flex-col"
             data-aos="fade-in"

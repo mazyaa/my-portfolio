@@ -30,17 +30,13 @@ export default function About() {
       <section
         style={{
           backgroundImage: `url(${image3})`,
-          height: "180vh",
         }}
-        className="flex items-center w-full justify-center bg-fixed bg-cover"
+        className="flex  items-center w-full justify-center bg-fixed bg-cover"
       >
         {/** About Me */}
         {/** Desktop View */}
-        <div
-          style={{ margin: "0 17rem" }}
-          className="hidden lg:flex bg-black/70 backdrop-blur-md h-7/10 w-190 rounded-[2rem]"
-        >
-          <div className="flex text-center flex-col gap-6 items-center justify-center">
+        <div className="hidden my-24 lg:flex bg-black/70 backdrop-blur-md w-190 rounded-[2rem]">
+          <div className="flex py-12 px-5 text-center flex-col gap-6 items-center justify-center">
             <h1
               data-aos="fade-in"
               data-aos-duration="3000"
@@ -172,11 +168,17 @@ export default function About() {
             </div>
           </div>
         </div>
+      </section>
 
+      <section
+        style={{
+          backgroundImage: `url(${image3})`,
+        }}
+        className="flex  items-center w-full justify-center bg-fixed bg-cover"
+      >
         {/** Mobile View */}
         <div
-          style={{ margin: "0 1rem" }}
-          className="flex lg:hidden h-8/10 w-full bg-black/70 backdrop-blur-md rounded-[3rem]"
+          className="flex lg:hidden my-24 mx-7 py-12 px-5 w-full bg-black/70 backdrop-blur-md rounded-[3rem]"
         >
           <div className="flex flex-col gap-4 items-center justify-center">
             <h1

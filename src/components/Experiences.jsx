@@ -12,11 +12,10 @@ export default function Experiences() {
     <section
       style={{
         backgroundImage: `url(${image4})`,
-        height: "220vh",
       }}
       className="flex items-center w-full justify-center items-center bg-fixed bg-cover"
     >
-      <div className="divider-horizontal flex-col px-12 pb-12 hidden lg:flex bg-black/70 backdrop-blur-md w-3/5 rounded-[2rem]">
+      <div className="divider-horizontal flex- my-24 px-12 pb-12 hidden lg:flex bg-black/70 backdrop-blur-md w-3/5 rounded-[2rem]">
         <h1
           data-aos="fade-in"
           data-aos-duration="300"
@@ -188,7 +187,7 @@ export default function Experiences() {
       </div>
 
       {/** mobile view */}
-      <div className="divider-horizontal mt-24 px-12 py-12 flex lg:hidden bg-black/70 backdrop-blur-md w-4/5 rounded-[2rem]">
+      <div className="divider-horizontal my-24 px-12 mx-7 py-12 flex lg:hidden bg-black/70 backdrop-blur-md w-full rounded-[2rem]">
         <h1
           data-aos="fade-in"
           data-aos-duration="300"
