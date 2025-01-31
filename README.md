@@ -37,18 +37,6 @@ npm run build
 ```sh
 npm run preview
 ```
-
-## 🚀 Deployment
-Portofolio ini bisa dideploy ke berbagai platform seperti:
-- **Vercel** (Direkomendasikan)
-- Netlify
-- GitHub Pages (butuh setup tambahan)
-
-Untuk deploy ke Vercel:
-1. **Push semua file ke GitHub** (kecuali `dist` yang di-ignore di `.gitignore`).
-2. **Buka [Vercel](https://vercel.com/)**, login, lalu connect repo GitHub.
-3. **Klik deploy!** 🚀
-
 ## 📄 License
 Proyek ini menggunakan lisensi MIT - silakan gunakan dan modifikasi sesuai kebutuhan. ✨
 
