@@ -160,7 +160,8 @@ export default function Experiences() {
             >
               <div className="modal-box w-full max-w-3xl">
                 <h3 className="font-bold text-lg text-center">
-                  Informatics Engineering Students | Universitas Banten Jaya
+                  Head Of Departement PMB | Himpunan Mahasiswa Teknik
+                  Informatika (HUMANIKA) Universitas Banten Jaya
                 </h3>
                 <p className="py-4 px-5 text-justify break-words whitespace-normal">
                   Led the PMB department with a focus on developing members
@@ -335,7 +336,8 @@ export default function Experiences() {
             >
               <div className="modal-box">
                 <h3 className="font-bold pb-3 text-lg text-center">
-                  Informatics Engineering Students | Universitas Banten Jaya
+                  Head Of Departement PMB | Himpunan Mahasiswa Teknik
+                  Informatika (HUMANIKA) Universitas Banten Jaya
                 </h3>
                 <p className="py-4 text-justify break-words whitespace-normal">
                   Led the PMB department with a focus on developing members
