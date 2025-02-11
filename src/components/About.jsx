@@ -19,6 +19,8 @@ import bootstrapIcon from "../assets/icon/bootstrap.svg";
 import reactIcon from "../assets/icon/react.svg";
 import viteIcon from "../assets/icon/vite.svg";
 import vercelIcon from "../assets/icon/vercel.svg";
+import laravelIcon from "../assets/icon/laravel-svgrepo-com.svg"; 
+import jQueryIcon from '../assets/icon/jquery-svgrepo-com.svg';
 
 export default function About() {
   useEffect(() => {
@@ -35,7 +37,7 @@ export default function About() {
       >
         {/** About Me */}
         {/** Desktop View */}
-        <div className="hidden my-24 lg:flex bg-black/70 backdrop-blur-md w-190 rounded-[2rem]">
+        <div className="hidden lg:flex my-24 bg-black/70 backdrop-blur-md w-190 rounded-[2rem]">
           <div className="flex py-12 px-5 text-center flex-col gap-6 items-center justify-center">
             <h1
               data-aos="fade-in"
@@ -162,6 +164,30 @@ export default function About() {
                   </li>
                   <li>
                     <img src={githubIcon} alt="github" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+             <div className="flex-col items-center justify-center">
+              <h1
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                className="text-3xl text-center font-bold text-white"
+              >
+                Currently Learning
+              </h1>
+              <div>
+                <ul
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  style={{ padding: "0 1rem" }}
+                  className="flex flex-wrap mt-3 gap-3 justify-center items-center"
+                >
+                  <li>
+                    <img className="w-10" src={laravelIcon} alt="laravelIcon" />
+                  </li>
+                  <li className="bg-white px-2">
+                    <img className="w-10" src={jQueryIcon} alt="jQueryIcon" />
                   </li>
                 </ul>
               </div>
@@ -305,6 +331,30 @@ export default function About() {
                   </li>
                   <li>
                     <img src={githubIcon} alt="github" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="flex-col items-center justify-center">
+              <h1
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                className="text-[20px] text-center font-bold text-white"
+              >
+                Currently Learning
+              </h1>
+              <div>
+                <ul
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  style={{ padding: "0 1rem" }}
+                  className="flex flex-wrap mt-3 gap-3 justify-center items-center"
+                >
+                  <li>
+                    <img className="w-10" src={laravelIcon} alt="laravelIcon" />
+                  </li>
+                  <li className="bg-white px-2">
+                    <img className="w-10" src={jQueryIcon} alt="jQueryIcon" />
                   </li>
                 </ul>
               </div>
